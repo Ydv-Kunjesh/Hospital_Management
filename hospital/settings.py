@@ -87,7 +87,7 @@ DATABASES = {
         'NAME': 'gulshan',  # Replace with your PostgreSQL database name
         'USER': 'admin',    # Replace with your PostgreSQL username
         'PASSWORD': 'gulshankumar',  # Replace with your PostgreSQL password
-        'HOST': 'dehradun.cxwmvi1qpasx.ap-south-1.rds.amazonaws.com',
+        'HOST': 'gulshan.cxwmvi1qpasx.ap-south-1.rds.amazonaws.com',
         'PORT': '3306',     # PostgreSQL default port
     }
 }
