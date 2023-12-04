@@ -74,23 +74,23 @@ WSGI_APPLICATION = 'hospital.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
-
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'gulshan',  # Replace with your PostgreSQL database name
-        'USER': 'admin',    # Replace with your PostgreSQL username
-        'PASSWORD': 'gulshankumar',  # Replace with your PostgreSQL password
-        'HOST': 'gulshan.cxwmvi1qpasx.ap-south-1.rds.amazonaws.com',
-        'PORT': '3306',     # PostgreSQL default port
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'gulshan',  # Replace with your PostgreSQL database name
+#         'USER': 'admin',    # Replace with your PostgreSQL username
+#         'PASSWORD': 'gulshankumar',  # Replace with your PostgreSQL password
+#         'HOST': 'gulshan.cxwmvi1qpasx.ap-south-1.rds.amazonaws.com',
+#         'PORT': '3306',     # PostgreSQL default port
+#     }
+# }
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
 
